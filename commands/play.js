@@ -16,11 +16,11 @@ module.exports = {
     const serverQueue = message.client.queue.get(message.guild.id);
     if (!channel) return message.reply("You need to join a voice channel first!").catch(console.error);
     if (serverQueue && channel !== message.guild.me.voice.channel)
-      return message.reply(`You must be in the same channel as ${message.client.user}`).catch(console.error);
+      return message.reply(`You must be in the same channel as ${message.client.user} :wink: `).catch(console.error);
 
     if (!args.length)
       return message
-        .reply(`Type : ``${message.client.prefix}play`` YouTube URL | Video Name | Soundcloud URL , :shushing_face: `)
+        .reply(`Type : ${message.client.prefix}play YouTube URL | Video Name | Soundcloud URL , :shushing_face: `)
         .catch(console.error);
 
     const permissions = channel.permissionsFor(message.client.user);
