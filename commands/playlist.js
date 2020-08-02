@@ -88,7 +88,7 @@ module.exports = {
     let playlistEmbed = new MessageEmbed()
       .setTitle(`${playlist.title}`)
       .setURL(playlist.url)
-      .setColor("#F8AA2A")
+      .setColor("#FFFFFF")
       .setTimestamp();
 
     if (!PRUNING) {
