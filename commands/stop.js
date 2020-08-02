@@ -12,6 +12,6 @@ module.exports = {
 
     queue.songs = [];
     queue.connection.dispatcher.end();
-    queue.textChannel.send(`${message.author}  stopped the music!:(`).catch(console.error);
+    queue.textChannel.send(`${message.author}, The music has been stopped  :( `).catch(console.error);
   }
 };

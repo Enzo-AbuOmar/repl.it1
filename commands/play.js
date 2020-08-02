@@ -20,7 +20,7 @@ module.exports = {
 
     if (!args.length)
       return message
-        .reply(`Usage: ${message.client.prefix}play <YouTube URL | Video Name | Soundcloud URL>`)
+        .reply(`Type : ``${message.client.prefix}play`` YouTube URL | Video Name | Soundcloud URL , :shushing_face: `)
         .catch(console.error);
 
     const permissions = channel.permissionsFor(message.client.user);
