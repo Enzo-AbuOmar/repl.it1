@@ -8,7 +8,7 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-      .setTitle("MonsBot Help")
+      .setTitle("SouL KingDom Music Bots ")
       .setDescription("List of all commands")
       .setColor("#FFFFFF");
 
